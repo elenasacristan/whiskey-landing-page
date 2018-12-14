@@ -1,0 +1,268 @@
+body {
+    font-family: 'Cabin', sans-serif;
+}
+
+/* CONTAINERS */
+
+
+.alert-warning {
+    margin-bottom: 0px
+}
+
+.container-alert {
+    padding: 0;
+
+}
+
+.callout-container {
+    height: 100vh;
+    /*100% height browser*/
+    background: url("../images/wk2.jpeg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: relative;
+
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+
+
+}
+
+.container-quotes {
+    background-color: #dedede;
+}
+
+.container-features {}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+    background-color: transparent;
+
+}
+
+.jumbotron h1 {
+
+    color: #ffffff;
+    font-weight: bold;
+    margin-bottom: 50px;
+
+}
+
+.jumbotron>hr {
+    width: 80px;
+    height: 7px;
+    background-color: #fcf445;
+}
+
+
+
+
+.text-muted {
+    color: #e7de91;
+}
+
+
+small {
+    color: #e8e6a1
+}
+
+.lead {
+    color: #e8e6a1;
+
+}
+
+mark {
+    background-color: rgba(255, 255, 255, 0.13);
+    color: #fcf445;
+}
+
+
+/* CHECK WHY THE HOVER DOESN@T WORK WHEN THE OVERLAY IS ACTIVE*/
+
+.btn-su {
+
+    border-radius: 25px;
+    width: 200px;
+    font-weight: bolder;
+
+}
+
+.btn-orange {
+    background-color: #f7ff5c;
+    border-color: #f7ff5c;
+    color: #943d08;
+    font-size: 25px;
+}
+
+
+.btn-orange:hover,
+.btn-orange:focus,
+.btn-orange:active,
+.btn-orange:active:focus {
+    background-color: #f6ffcd;
+    border-color: #f6ffcd;
+    color: #943d08;
+}
+
+
+/*navbar*/
+
+.navbar {
+    position: fixed;  /*in order to fix it at the top of the page*/
+    z-index: 1; /*to make sure it stays on top of the callout*/
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    margin-bottom: 0;
+    /* border: 1px solid transparent; */
+}
+
+.navbar-default {
+      background-color: transparent;
+
+    color:#ffffff;
+    border: 0;
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+.navbar-default .navbar-brand {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: #ffffff;
+ }
+ 
+ .navbar-default .navbar-nav>.active>a {
+    color: yellow;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #dddddd;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #dddddd;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-text {
+    color: #dddddd;
+}
+
+
+.btn-default {
+    color: #947660;
+    background-color: #ffffff;
+    border-color: #ffffff;
+    font-weight: bold;
+    width: 120px;
+    border-radius: 20px;
+}
+
+.btn-default:hover {
+    font-weight: bold;
+    color: #895a33;
+    background-color: #efce37;
+    border-color: #efce37;
+}
+
+
+
+/*QUOTES*/
+
+.wrapper-yellow {
+    background-color: #aaac8f;
+}
+
+.container-quotes, .container-favourites {
+    background-color: transparent;
+    color: hsl(64, 83%, 19%)
+}
+
+.page-header {
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+
+
+.wrapper{
+    padding: 30px;
+}
+
+
+
+.wrapper-brown {
+    background-color: #947660;
+    color: white;
+    text-align: center;
+}
+
+.glyphicon {
+    font-size: 40px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+.features .col-xm-12{
+    margin-bottom: 70px;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+.navbar-default .navbar-toggle, .navbar-collapse {
+   
+    border: 0;
+  
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    height: 5px;
+    background-color: yellow;
+    width: 30px;
+}
+
+.alert-warning {
+    margin-bottom: 0px;
+    padding: 2px;
+    border-radius: 0;
+    background-color: #ffdd41;
+    border: 0px;
+    color: #000000;
+}
+
+.table {
+    margin: auto;
+    border: 1px solid #ddd;
+    width: 50%;
+    background-color: transparent;
+    color: #535908;
+}

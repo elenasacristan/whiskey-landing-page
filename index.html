@@ -6,34 +6,68 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Cabin:400,400i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
     <title>Whiskey drop | Taste a new whiskey every month</title>
 </head>
 
 <body>
 
 
+
     <nav class="navbar navbar-default">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Whiskey Drop</a>
-            </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="container-fluid container-alert">
 
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home </a></li>
-                <li><a href="#">About</a></li>
-                <li class="visible-xs"><a href="#">Sign-Up!</a></li>
-            </ul>
 
-            <div class="navbar-header navbar-right hidden-xs">
-                <a href="" class="btn btn-default navbar-btn">Sign Up!</a>
-                <p class="navbar-text">Great whiskeys delivered to your door!</p>
+
+
+            <div class="row hidden-xs">
+                <div class="col-xs-12">
+                    <div class="alert alert-warning">
+                        Sale Now On! Get 12 month subscription for the prize of 6! <a href="">click here!</a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
-        <!-- /.container-fluid -->
+
+
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Whiskey Drop</a>
+
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+                  </button>
+
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Home </a></li>
+                    <li><a href="#">About</a></li>
+                    <li class="visible-xs"><a href="#">Sign-Up!</a></li>
+                </ul>
+
+                <div class="navbar-header navbar-right hidden-xs">
+                    <a href="" class="btn btn-default navbar-btn">Sign Up!</a>
+
+
+
+
+                    <p class="navbar-text">Great whiskeys delivered to your door!</p>
+                </div>
+            </div>
+
+
+        </div>
     </nav>
 
 
@@ -41,156 +75,163 @@
 
 
 
-    <article class="container">
-        <!--Alert-->
+    <!--CallOut-->
 
-        <div class="row hidden-xs">
+    <div class="container-fluid callout-container">
+        <!--we create the container-callout to customise with our styles*/-->
+        <div class="overlay">&nbsp;</div>
+        <div class="row ">
             <div class="col-xs-12">
-                <div class="alert alert-warning">
-                    Sale Now On! Get 12 month subscription for the prize of 6! <a href="">click here!</a>
-                </div>
-            </div>
-
-        </div>
-        <!--CallOut-->
-        <div class="row jumbotron text-center">
-            <div class="col-xm-12">
-                <section class="callout">
+                <section class="callout jumbotron text-center">
                     <h1>The finest whiskeys delivered to your doorstep.</h1>
+                    <hr style="line-divider line-divider-orange">
                     <p class="lead">Sign up today to start receiving the world best whiskeys every month. <s class="hidden-xs">€19,99</s> <span class="visible-xs"><br></span><strong><mark>First one is free!</mark></strong></p>
-                    <button class="btn btn-lg btn-success" data-toggle="modal" data-target="#signupModal">Sign up!</button>
+                    <p><button class="btn btn-lg btn-success btn-su btn-orange" data-toggle="modal" data-target="#signupModal">Sign up!</button></p>
 
-                    <p><small class="text-muted">You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
+                    <p class="text-muted"><small>You must be over 18 to sign up to our service. Please drink responsibly.</small></p>
                 </section>
             </div>
         </div>
         <!--/CallOut-->
+    </div>
 
 
-        <!--Quotes-->
-        <section class="quotes">
-            <div class="row">
-                <div class="col-xm-12">
-                    <div class="page-header">
-                        <h2 class="text-uppercase">Quotes</h2>
-                    </div>
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-xm-12 col-md-6 col-lg-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"> <img class="media-object img-circle hidden-xs" src="images/download.jpg" alt="user1 picture" width="100" height="100"> </a>
-                        </div>
-                        <div class="media-body">
-                            <blockquote>
-                                <p>I have been introduced to more than 10 international great whiskeys I never knew about.</p>
-                                <p>- Jane Doe</p>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-xm-12 col-md-6 col-lg-6">
-                    <div class="media">
-                        <div class="media-left">
-                            <a href="#"> <img class="media-object img-circle hidden-xs" src="images/download2.png" alt="user1 picture" width="100" height="100"> </a>
-                        </div>
-                        <div class="media-body">
-                            <blockquote>
-                                <p>I haven't been sover for months.</p>
-                                <p>- Joe Bloggs</p>
-                            </blockquote>
+    <div class="wrapper wrapper-yellow">
+        <div class="container-fluid container-quotes">
+            <!--Quotes-->
+            <section class="quotes">
+                <div class="row">
+                    <div class="col-xm-12">
+                        <div class="page-header">
+                            <h2 class="text-uppercase">Quotes</h2>
                         </div>
                     </div>
                 </div>
 
-            </div>
+                <div class="row">
+                    <div class="col-xm-12 col-md-6 col-lg-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"> <img class="media-object img-circle hidden-xs" src="images/download.jpg" alt="user1 picture" width="100" height="100"> </a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>
+                                    <p>I have been introduced to more than 10 international great whiskeys I never knew about.</p>
+                                    <p>- Jane Doe</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xm-12 col-md-6 col-lg-6">
+                        <div class="media">
+                            <div class="media-left">
+                                <a href="#"> <img class="media-object img-circle hidden-xs" src="images/download2.png" alt="user1 picture" width="100" height="100"> </a>
+                            </div>
+                            <div class="media-body">
+                                <blockquote>
+                                    <p>I haven't been sover for months.</p>
+                                    <p>- Joe Bloggs</p>
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
 
-        </section>
+                </div>
+
+            </section>
+        </div>
         <!--/Quotes-->
+    </div>
 
 
-
+    <div class="wrapper wrapper-brown">
         <!--Features-->
-        <section class="features">
-            <div class="row">
-                <div class="col-xm-12">
-                    <div class="page-header">
+        <div class="container container-features">
+            <section class="features">
+                <div class="row">
+                    <div class="col-xm-12">
+                        <div class="page-header">
 
-                        <h2 class="text-uppercase">Features</h2>
+                            <h2 class="text-uppercase">Features</h2>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-xm-12 col-md-6 col-lg-4">
-                    <h3><span class="glyphicon glyphicon-shopping-cart"></span> Feature 1 <span class="label label-success">New!</span></h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed, quaerat,
-                        nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
-                    <a class="btn btn-default btn-sm" href="#">Read more</a>
+                <div class="row">
+                    <div class="col-xm-12 col-md-6 col-lg-4">
+                        <h3><span class="glyphicon glyphicon-shopping-cart"></span> Feature 1 <span class="label label-success">New!</span></h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed,
+                            quaerat, nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
+                        <a class="btn btn-default btn-sm" href="#">Read more</a>
+                    </div>
+                    <div class="col-xm-12 col-md-6 col-lg-4">
+                        <h3><span class="glyphicon glyphicon-stats"></span> Feature 2</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed,
+                            quaerat, nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
+                        <a class="btn btn-default btn-sm" href="#">Read more</a>
+                    </div>
+                    <div class="col-xm-12 hidden-md col-lg-4">
+                        <h3><span class="glyphicon glyphicon-film"></span> Feature 1</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. En3m tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed,
+                            quaerat, nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
+                        <a class="btn btn-default btn-sm" href="#">Read more</a>
+                    </div>
                 </div>
-                <div class="col-xm-12 col-md-6 col-lg-4">
-                    <h3><span class="glyphicon glyphicon-stats"></span> Feature 2</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed, quaerat,
-                        nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
-                    <a class="btn btn-default btn-sm" href="#">Read more</a>
-                </div>
-                <div class="col-xm-12 hidden-md col-lg-4">
-                    <h3><span class="glyphicon glyphicon-film"></span> Feature 1</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. En3m tempora eveniet dolores rem. Iste nulla consequatur qui doloribus aspernatur molestiae aliquid ab, officiis distinctio! Animi, in. Aliquid alias ipsa amet nemo sed, quaerat,
-                        nihil facilis. Sunt mollitia quae, alias accusamus ratione sequi, pariatur fuga modi vero quod aut ipsa unde.</p>
-                    <a class="btn btn-default btn-sm" href="#">Read more</a>
-                </div>
-            </div>
-        </section>
+            </section>
+        </div>
         <!--/Features-->
+    </div>
 
-        <hr>
+
+    <div class="wrapper wrapper-yellow">
 
         <!--Monthly Favourites-->
-        <section class="favorites">
-            <div class="row">
-                <div class="col-xm-12">
-                    <div class="page-header">
+        <div class="container container-favourites">
+            <section class="favorites">
+                <div class="row">
+                    <div class="col-xm-12">
+                        <div class="page-header">
 
-                        <h2 class="text-uppercase">Monthly Favorites</h2>
+                            <h2 class="text-uppercase">Monthly Favorites</h2>
+                        </div>
+                        <table class="table table-hover text-center">
+                            <tr>
+                                <th class="text-center">Name</th>
+                                <th class="text-center">Origin</th>
+                            </tr>
+                            <tr>
+
+                                <td>Whiskey number 1</td>
+                                <td>country 1</td>
+                            </tr>
+                            <tr>
+
+                                <td>Whiskey number 2</td>
+                                <td>country 2</td>
+                            </tr>
+                            <tr>
+
+                                <td>Whiskey number 3</td>
+                                <td>country 3</td>
+                            </tr>
+                            <tr>
+
+                                <td>Whiskey number 4</td>
+                                <td>country 4</td>
+                            </tr>
+                            <tr>
+
+                                <td>Whiskey number 5</td>
+                                <td>country 5</td>
+                            </tr>
+                        </table>
                     </div>
-                    <table class="table table-bordered text-center">
-                        <tr>
-                            <th class="text-center">Name</th>
-                            <th class="text-center">Origin</th>
-                        </tr>
-                        <tr>
-
-                            <td>Whiskey number 1</td>
-                            <td>country 1</td>
-                        </tr>
-                        <tr>
-
-                            <td>Whiskey number 2</td>
-                            <td>country 2</td>
-                        </tr>
-                        <tr>
-
-                            <td>Whiskey number 3</td>
-                            <td>country 3</td>
-                        </tr>
-                        <tr>
-
-                            <td>Whiskey number 4</td>
-                            <td>country 4</td>
-                        </tr>
-                        <tr>
-
-                            <td>Whiskey number 5</td>
-                            <td>country 5</td>
-                        </tr>
-                    </table>
                 </div>
-            </div>
 
-        </section>
-        <!--/Monthly Favourites-->
+            </section>
+        </div>
+    </div>
+    <!--/Monthly Favourites-->
 
     </article>
 
@@ -213,11 +254,11 @@
                             <label for="password">Password</label>
                             <input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
-                          <div class="form-group">
+                        <div class="form-group">
                             <label for="repeatpassword">Password</label>
                             <input type="password" class="form-control" id="repeatpassword" placeholder="Repeat the password">
                         </div>
-                       
+
                         <button type="submit" class="btn btn-success">Sign Up!</button>
                     </form>
                 </div>
